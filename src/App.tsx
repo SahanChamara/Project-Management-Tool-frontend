@@ -1,14 +1,14 @@
 import './App.css'
-import Home from './page/HomePage/Home'
-import Login from './page/RegisterPage/Login'
+import AppRoutes from './routes'
 function App() {
 
-  return (
+  /* return (
     <>
-      {/* <Home/> */} 
+      <Home/> 
       <Login/>
     </>
-  )
+  ) */
+ return <AppRoutes/>;
 }
 
 export default App
