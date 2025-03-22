@@ -1,4 +1,4 @@
-import { Card, CardContent } from "../card";
+import { Card, CardContent } from "../ui/card";
 
 export default function FeaturesSection() {
     const features = [
