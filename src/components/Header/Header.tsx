@@ -1,4 +1,5 @@
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 // Header Component
 export default function Header() {
@@ -28,10 +29,10 @@ export default function Header() {
             
             <div className="flex items-center gap-4">
               <Button variant="outline" className="border-[#4e6af0] text-[#4e6af0] hover:bg-[#4e6af0] hover:text-white">
-                Log In
+                <Link to='/sign-in' > Log In </Link>
               </Button>
               <Button className="bg-[#4e6af0] hover:bg-[#3f55c0] text-white">
-                Sign Up
+              <Link to='/sign-up' > Sign Up </Link>
               </Button>
             </div>
           </div>

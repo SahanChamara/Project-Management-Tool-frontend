@@ -2,12 +2,13 @@ import SignIn from "@/components/auth/SignIn";
 import { AUTH_ROUTES, BASE_ROUTE, PROTECTED_ROUTES } from "./routePaths";
 import SignUp from "@/components/auth/SignUp";
 import Home from "@/page/HomePage/Home";
+import GoogleOAuthFailure from "@/page/auth/GoogleOAuthFailure";
 
 
 export const authenticationRoutePaths = [
     {path: AUTH_ROUTES.SIGN_IN, element: <SignIn/>},
     {path: AUTH_ROUTES.SIGN_UP, element: <SignUp/>},
-    // {path: AUTH_ROUTES.GOOGLE_OAUTH_CALLBACK, element: <GoogleAuthFailure/>},
+    {path: AUTH_ROUTES.GOOGLE_OAUTH_CALLBACK, element: <GoogleOAuthFailure/>},
 ];
 
 export const protectedRoutePaths = [
