@@ -1,10 +1,10 @@
 // App.jsx - Main component
-import Header from "@/components/Header/Header";
-import HeroSection from "@/components/Hero/Hero";
-import FeaturesSection from "@/components/HomePage Features/FeaturesSection";
-import HowItWorksSection from "@/components/HowItWorkSection/HowItWorkSection";
-import CtaSection from "@/components/CTASection/CtaSection";
-import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Home Page All Components/Header/Header";
+import HeroSection from "@/components/Home Page All Components/Hero/Hero";
+import FeaturesSection from "@/components/Home Page All Components/HomePage Features/FeaturesSection";
+import HowItWorksSection from "@/components/Home Page All Components/HowItWorkSection/HowItWorkSection";
+import CtaSection from "@/components/Home Page All Components/CTASection/CtaSection";
+import Footer from "@/components/Home Page All Components/Footer/Footer";
 
 export default function Home() {
   return (
