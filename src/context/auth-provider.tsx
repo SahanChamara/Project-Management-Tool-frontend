@@ -29,10 +29,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
 // eslient disable next line react-refresh / only export component
 export const useAuthContext = () => {
-    const conetxt = useContext(AuthContext);
-    if (!conetxt) {
+    const context = useContext(AuthContext);
+    if (!context) {
         throw new Error("useCurrnt User Context must be used with in a authprovider");
     }
-    return conetxt;
+    return context;
 };
 

@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { authenticationRoutePaths, baseRoutePaths, protectedRoutePaths } from "./common/routes";
 import AuthRoute from "./auth.route";
 import ProtectedRoute from "./protected.route";
-import AppLayout from "@/layout/app.layput";
+import AppLayout from "@/layout/app.layout";
 
 
 function AppRoutes() {
