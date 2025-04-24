@@ -2,7 +2,7 @@ import { Column, ColumnDef, Row } from "@tanstack/react-table";
 import { format } from "date-fns";
 
 import { DataTableColumnHeader } from "./table-column-header";
-import { DataTableRowActions } from "./table-row-actions";
+import { DataTableRowActions } from "./table-row-action";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Badge } from "@/components/ui/badge";
 import {
