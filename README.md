@@ -12,7 +12,6 @@
 
 Smart Project Manager is a powerful multi-tenant project management system designed to help teams collaborate, manage tasks, and track project progress efficiently. Leveraging AI for task prioritization and real-time WebSocket communication, it provides a seamless and intelligent project management experience.
 
-![Dashboard Overview](src/assets/images/screenshots/dashboard.png)
 
 ## ✨ Key Features
 
